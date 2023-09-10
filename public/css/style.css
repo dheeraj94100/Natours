@@ -3,12 +3,12 @@
 }
 
 ::-moz-selection {
-  background-color: #a2d2ff;
+  background-color: #55c57a;
   color: #fff;
 }
 
 ::selection {
-  background-color: #a2d2ff;
+  background-color: #55c57a;
   color: #fff;
 }
 
@@ -118,10 +118,10 @@ body {
     linear,
     left top,
     right top,
-    from(#a8dadc),
-    to(#219ebc)
+    from(#7dd56f),
+    to(#28b487)
   );
-  background-image: linear-gradient(to right, #a8dadc, #219ebc);
+  background-image: linear-gradient(to right, #7dd56f, #28b487);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 0.1rem;
@@ -156,13 +156,13 @@ body {
     linear,
     left top,
     right bottom,
-    from(rgba(56, 163, 165, 1)),
-    to(#7f5539)
+    from(rgba(125, 213, 111, 0.85)),
+    to(rgba(40, 180, 135, 0.85))
   );
   background-image: linear-gradient(
     to bottom right,
-    rgba(56, 163, 165, 1),
-    #7f5539
+    rgba(125, 213, 111, 0.85),
+    rgba(40, 180, 135, 0.85)
   );
 }
 
@@ -219,7 +219,7 @@ body {
 
 .btn:focus {
   outline: none;
-  background-color: #219ebc;
+  background-color: #2e864b;
 }
 
 .btn--white {
@@ -231,11 +231,11 @@ body {
 }
 
 .btn--green {
-  background-color: #90e0ef;
+  background-color: #55c57a;
   color: #fff;
 }
 .btn--green::after {
-  background-color: #90e0ef;
+  background-color: #55c57a;
 }
 
 .btn--small {
@@ -246,7 +246,7 @@ body {
 .btn-small,
 .btn-small:link,
 .btn-small:visited {
-  background-color: #90e0ef;
+  background-color: #55c57a;
   color: #fff;
   font-size: 1.4rem;
   padding: 1.25rem 3rem;
@@ -262,22 +262,22 @@ body {
 }
 
 .btn-small:hover {
-  background-color: #83c5be;
+  background-color: #7dd56f;
 }
 
 .btn-text:link,
 .btn-text:visited {
-  color: #94d2bd;
+  color: #55c57a;
   display: inline-block;
   text-decoration: none;
-  border-bottom: 1px solid #94d2bd;
+  border-bottom: 1px solid #55c57a;
   padding: 3px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 .btn-text:hover {
-  background-color: #94d2bd;
+  background-color: #55c57a;
   color: #fff;
   -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
@@ -294,12 +294,12 @@ body {
 
 .btn-text:focus {
   outline: none;
-  outline: 3px solid #94d2bd;
+  outline: 3px solid #55c57a;
   outline-offset: 3px;
 }
 
 .header {
-  background-color: #577590;
+  background-color: #444;
   padding: 0 5rem;
   height: 8rem;
   position: relative;
@@ -372,10 +372,10 @@ body {
     linear,
     left top,
     right bottom,
-    from(#70d6ff),
-    to(#c8b6ff)
+    from(#7dd56f),
+    to(#28b487)
   );
-  background-image: linear-gradient(to right bottom, #70d6ff, #c8b6ff);
+  background-image: linear-gradient(to right bottom, #7dd56f, #28b487);
   opacity: 0.85;
 }
 
@@ -483,7 +483,7 @@ body {
 .overview-box__icon {
   height: 2.25rem;
   width: 2.25rem;
-  fill: #31572c;
+  fill: #55c57a;
 }
 .overview-box__label {
   font-weight: 700;
@@ -776,10 +776,10 @@ body {
     linear,
     left top,
     right bottom,
-    from(#00afb9),
-    to(#4d908e)
+    from(#7dd56f),
+    to(#28b487)
   );
-  background-image: linear-gradient(to right bottom, #00afb9, #4d908e);
+  background-image: linear-gradient(to right bottom, #7dd56f, #28b487);
   padding: 4rem 0;
 }
 .user-view__content {
@@ -919,7 +919,7 @@ body {
 .nav__el:active {
   -webkit-transform: translateY(-2px);
   transform: translateY(-2px);
-  text-shadow: 0 0.7rem 1rem #4d908e;
+  text-shadow: 0 0.7rem 1rem black;
 }
 .nav__el:not(:last-child) {
   margin-right: 3rem;
@@ -942,7 +942,7 @@ body {
 }
 .nav__el--cta:hover {
   background-color: #f7f7f7;
-  color: #4d908e;
+  color: #777;
   text-shadow: none;
   border-color: #f7f7f7;
 }
@@ -1113,10 +1113,10 @@ body {
     linear,
     left top,
     right bottom,
-    from(#7dcfb6),
-    to(#00b2ca)
+    from(#7dd56f),
+    to(#28b487)
   );
-  background-image: linear-gradient(to right bottom, #7dcfb6, #00b2ca);
+  background-image: linear-gradient(to right bottom, #7dd56f, #28b487);
   opacity: 0.7;
 }
 .card__picture-img {
@@ -1160,7 +1160,7 @@ body {
 .card__icon {
   height: 2rem;
   width: 2rem;
-  fill: #00a5cf;
+  fill: #55c57a;
 }
 .card__footer {
   background-color: #f7f7f7;
@@ -1223,17 +1223,6 @@ body {
 }
 
 .login-form {
-  margin: 0 auto;
-  max-width: 55rem;
-  background-color: #fff;
-  -webkit-box-shadow: 0 2.5rem 8rem 2rem rgba(0, 0, 0, 0.06);
-  box-shadow: 0 2.5rem 8rem 2rem rgba(0, 0, 0, 0.06);
-  padding: 5rem 7rem;
-  border-radius: 5px;
-}
-
-.signup-form {
-  
   margin: 0 auto;
   max-width: 55rem;
   background-color: #fff;
